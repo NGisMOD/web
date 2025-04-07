@@ -1,0 +1,139 @@
+@mixin seccionconimagen{
+    background-image: url(../assets/img/fondoprincipal.png);/* Cambia 'ruta/de/tu/imagen.jpg' por la ruta real de tu imagen */
+    width: 100%; 
+    height: 780px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+}  
+
+@mixin SM{
+        width: 1050px; /* Ajusta el ancho de tu logo según tus necesidades */
+        height: auto; /* Permite que la altura se ajuste proporcionalmente al ancho */
+        position: relative;
+        z-index: 2; /* Asegura que el logo esté superpuesto sobre el fondo */
+        left: 420px;
+        top: 80px;
+       
+              
+}
+@mixin titulodesitio{
+    color: white;
+    text-shadow: 5px 5px 4px black;
+    font-size: 6em;
+    font-family: jomhuria;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 150px;
+
+    -webkit-animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+                animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+
+@-webkit-keyframes text-focus-in {
+    0% {
+      -webkit-filter: blur(12px);
+              filter: blur(12px);
+      opacity: 0;
+    }
+    100% {
+      -webkit-filter: blur(0px);
+              filter: blur(0px);
+      opacity: 1;
+    }
+  }
+  @keyframes text-focus-in {
+    0% {
+      -webkit-filter: blur(12px);
+              filter: blur(12px);
+      opacity: 0;
+    }
+    100% {
+      -webkit-filter: blur(0px);
+              filter: blur(0px);
+      opacity: 1;
+    }
+  }
+}
+
+@mixin entrada{
+    color: white;
+    padding-top: 40px;
+    padding-bottom: 60px ;
+     background-color: black;
+     position: relative;
+     font-family: Sansation;
+     font-weight: bold;
+     font-size: 50px;
+     opacity: 1;
+     text-align: center;
+     display: flex;
+     flex-direction: row;
+     background-position: center;
+     justify-content: center;
+     align-items: center;
+     
+        
+  
+}
+
+@mixin copyright{
+        height: 40px;
+        background-color: black;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+}
+
+@mixin nove{
+    height: 300px;
+    background-image: url(../assets/img/fondo1.png);/* Cambia 'ruta/de/tu/imagen.jpg' por la ruta real de tu imagen */
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@mixin tienda{
+    height: 800px;
+    background-image: url(../assets/img/fondo-store.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+}
+@mixin tiendatexto{
+    color: white;
+    font-size: 40px;
+    font-family: jomhuria;
+      padding-left: 900px;
+      padding-right: 50px;
+      padding-top: 40px;
+      padding-bottom: 40px;
+      text-align: right;
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+    flex-direction: column;
+}
+@mixin danteybayo{
+    height: 1000px;
+    background-image: url(../assets/img/storefondo.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+
+}

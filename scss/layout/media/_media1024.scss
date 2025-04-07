@@ -1,0 +1,657 @@
+@media (max-width: 1024px){
+    header{
+        background-color:map-get($color, color1);
+        width: 100%;
+        height: 250px;
+    nav{
+        
+        .enlinea{
+            display: flex;
+            justify-content: flex-end;
+            gap: 3rem;
+            padding-right: 40px;
+            padding-top: 110px;
+            li{
+                list-style: none;
+                a{
+                    text-decoration: none;
+                    font-size: larger;
+                    color: map-get($color, color2);
+                    text-transform: uppercase;
+                    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                }
+            }
+        }
+    }
+    }
+    
+    .Logoheader{
+        width: 270px;
+        height: auto;
+        padding-left: 30px;
+        position: absolute;
+        padding-top: 10px;
+    
+    }
+    .seccion-con-imagen{
+        background-image: url(../assets/img/fondoprincipal.png);/* Cambia 'ruta/de/tu/imagen.jpg' por la ruta real de tu imagen */
+        width: 100%; 
+        height: 780px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        flex-direction: column;
+        .titulo{
+            color: rgb(255, 255, 255);
+        text-shadow: 5px 5px 4px black;
+        font-size: 6em;
+        font-family: jomhuria;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-top: 150px;
+        }
+    }
+   
+    
+    .supermario{
+        width: 780px; /* Ajusta el ancho de tu logo según tus necesidades */
+        height: auto; /* Permite que la altura se ajuste proporcionalmente al ancho */
+        position: relative;
+        z-index: 2; /* Asegura que el logo esté superpuesto sobre el fondo */
+        left: 120px;
+        top: 165px;
+        
+    }
+    .seccion-con-imagen1{
+        height: 700px; /* Establece la altura de la sección al 100% del viewport height */
+       background-image: url(../assets/img/fondo1.png);/* Cambia 'ruta/de/tu/imagen.jpg' por la ruta real de tu imagen */
+        background-size: cover;
+        display: flex;
+    flex-direction: column;
+    background-position: center;
+    justify-content: center;
+    align-items: end;
+    .titulo1{
+        color: map-get($color, color2);
+        text-align: right;
+        font-size: 3em;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        padding-right: 60px; 
+      margin-left: 0px;
+    }
+    }
+   
+    .texto1{
+        color: white;
+    text-align: right;
+    font-size: 2em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      padding-right: 20px; 
+      margin-left: 400px;
+      padding-top: 50px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    .jefemaestro{
+       width: 250px; 
+    height: auto; 
+    position: absolute;
+    left: 10%;
+    z-index: 2;  
+    }
+    .seccion-con-imagen2{
+        height: 200px; /* Establece la altura de la sección al 100% del viewport height */
+   background-color: black;
+    display: flex;
+    flex-direction: column;
+    color: map-get($color, color2);
+    background-position: center;
+    justify-content: flex-start;
+    align-items: start;
+    font-size: 4em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      padding-left: 60px; 
+      z-index: 2;
+          .texto2{
+        color: map-get($color, color2);
+            text-align: left;
+            padding-top: 10px;
+            font-size: 25px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+              padding-left: 0px; 
+              margin-right: 600px;
+              z-index: 2;
+    }
+         
+    }
+    
+    .nintendo{
+    width: 445px; /* Ajusta el ancho de tu logo según tus necesidades */
+    height: auto; /* Permite que la altura se ajuste proporcionalmente al ancho */
+    position: absolute;
+    left: 56%;
+    z-index: 0; /* Asegura que el logo esté superpuesto sobre el fondo */
+}
+   
+    
+    .titulodeentrada{
+        color: white;
+        padding-top: 30px;
+        padding-bottom: 30px ;
+     background-color: black;
+     position: relative;
+     font-family: Sansation;
+     font-weight: bold;
+     font-size: 50px;
+     opacity: 1;
+     text-align: center;
+     display: flex;
+     flex-direction: row;
+     background-position: center;
+     justify-content: center;
+     align-items: start;
+      
+    }
+    
+    .Blogs{
+        background-color: black;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-direction: row;
+        .card{
+            width: 300px;
+            height: 550px;
+            background-color: white;
+            text-align: center;
+            border: 1px solid rgba(0, 0, 0, 0.278);
+            border-radius: 1.25rem; 
+            overflow: hidden; 
+            
+        }
+    
+    }
+    
+    .entrada1{
+        box-shadow: -2px 2px 40px rgb(200, 255, 37);
+        order: 1;
+        align-self: flex-start;
+        h3{
+            text-align: center;
+            font-size: 20px;
+            color: black;
+            padding-left: 50px;
+            padding-right: 50px;
+            padding-top: 20px;
+            text-transform: uppercase;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        
+        }
+        
+    }
+    p{
+        font-size: large;
+        color: black;
+        padding-left: 50px;
+        padding-right: 50px;
+        padding-top: 20px;
+    }
+    
+    div img{
+        border-radius: 50%;
+        width: 200px;
+        height: 200px;
+        overflow: hidden;
+        margin-top: 30px;
+    }
+    
+    .entrada2{
+        box-shadow: -2px 2px 40px rgb(255, 37, 37);
+        order: 2;
+        align-self: flex-start;
+        h3{
+            text-align: center;
+            font-size: 20px;
+            color: black;
+            padding-left: 50px;
+            padding-right: 50px;
+            padding-top: 20px;
+            text-transform: uppercase;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        
+        }
+    }
+    
+    .entrada3{
+        box-shadow: -2px 2px 40
+        px rgb(208, 37, 255);
+        order: 3;
+        align-self: flex-end;
+        position: relative;
+        h3{
+            text-align: center;
+            font-size: 20px;
+            color: black;
+            padding-left: 50px;
+            padding-right: 50px;
+            padding-top: 20px;
+            text-transform: uppercase;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        
+        }
+    }
+    
+    .espacio{
+        background-color: black;
+        height: 30px;
+    
+    }
+
+    .novedades2{
+        height: 150px;
+        background-image: url(../assets/img/fondo1.png);/* Cambia 'ruta/de/tu/imagen.jpg' por la ruta real de tu imagen */
+        background-size: cover;
+        background-repeat: no-repeat;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .novedades2 div{
+        font-size: 30px;
+        color: white;
+        text-align: center;
+        display: flex;
+        padding-left: 50px;
+        padding-right: 50px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+    }
+    
+    .nosotros2 {
+        height: 850px;
+        background-image: url(../assets/img/fondo1.png);/* Cambia 'ruta/de/tu/imagen.jpg' por la ruta real de tu imagen */
+        background-size: cover;
+        background-repeat: no-repeat;
+        p{
+            font-size: 20px;
+            color: white;
+            text-align: left;
+        padding-left: 50px;
+        padding-right: 500px;
+        padding-top: 45px;
+            
+        }
+    }
+    section .uss{
+        width: 300px; 
+    height: auto; 
+    position: absolute;
+    left: 70%;
+    z-index: 2; 
+    margin-top: 230px;
+    }
+    section .ezioo{
+        width: 300px; 
+        height: auto; 
+        position: absolute;
+        left: 55%;
+        margin-top: 170px;
+        z-index: 3; 
+    }
+    section .codd{
+        width: 310px; 
+    height: auto; 
+    position: absolute;
+    left: 65%;
+    margin-top: 500px;
+    z-index: 3; 
+    }
+
+    .store{
+        height: 650px;
+        background-image: url(../assets/img/fondo-store.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        display: flex;
+        flex-direction: column;
+        p{
+            color: white;
+            text-shadow: 5px 5px 4px black;
+            font-size: 42px;
+            font-family: jomhuria;
+              padding-left: 50px;
+              padding-right: 50px;
+              padding-top: 30px;
+              padding-bottom: 0px;
+              text-align: center;
+              display: flex;
+              justify-content: flex-end;
+              align-items: center;
+            flex-direction: column;  
+        }
+    }
+    
+    .store3{
+        height: 550px;
+        background-image: url(../assets/img/storefondo.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-top: 20px;
+    
+    }
+    
+    
+
+    .bayo{
+        width: 200px; 
+    height: auto; 
+    position: absolute;
+    left: 10%;
+    padding-top: 80px;
+    z-index: 1;
+    
+    }
+    
+    .Dmc{
+        width: 200px; 
+    height: auto; 
+    position: absolute;
+    right: 10%;
+    padding-top: 50px;
+    z-index: 2;
+    }
+    
+    .vercatalogo{
+        color: black;
+        text-transform: uppercase;
+        text-align: center;
+        font-size: 45px;
+          margin-top: 15px;
+          display: flex;
+        flex-direction: column;
+        padding-left: 15%;
+        padding-right: 15%;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    
+    .clickaqui{
+        color: red;
+        text-decoration: none;
+        text-transform: uppercase;
+        text-align: center;
+        font-size: 80px;
+        margin-top: 15px;
+        display: flex;
+        flex-direction: column;
+        padding-left: 10%;
+        padding-right: 10%;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+
+    .callus{
+        height: 700px;
+        background-image: url(../assets/img/RE4.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .formulario {
+        background-color: #fff;
+        border-radius: 10px;
+        box-shadow: 0 0 20px rgb(247, 243, 243);
+        padding: 2%;
+        width: 300px;
+        height: 550px;
+        margin: 4%;
+        h2{
+            text-align: center;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            text-transform: uppercase;
+            
+          }
+      }
+    
+    .formulario label, .formulario input {
+    display: flex;
+    margin-bottom: 20px;
+        
+             }
+    
+    .formulario button {
+    background-color: black;
+    color: white;
+    padding: 5%;
+    margin-top: 10%;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    }
+
+
+
+
+    .mapa{
+    background-color: white;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+        .titulomapa{
+        text-align: center;
+        color: black;
+        text-transform: uppercase;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 25px;
+        }
+    }
+    
+
+    
+    .datosmios p{
+        font-size: 20px;
+        text-align: left;
+        padding-top: 50px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    
+    .micasaa{
+        width: 320px; 
+        height: auto; 
+        position: absolute;
+        right: 13%;
+        top: 210%;
+        z-index: 2;
+    }
+
+    
+
+    .Productos{
+        width: 80%; 
+    margin-left: 100px;
+    padding-top: 200px;
+        
+    } 
+    .introproduct{
+        background-image: url(../assets/img/INTROPRODUCTS.jpg);
+        width: auto;
+        height: 300px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: 50%;
+        h1{
+            font-size: 40px;
+            color: black;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: flex-start;
+            padding-top: 20px;
+        }
+    }
+    
+    .introproduct p{
+        font-size: 25px;
+        color: black;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        text-align: center;
+        padding-top: 30px;
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+    section .container{
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    
+    .col{
+        text-align: center;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+     text-decoration: none;
+     color: #000000;
+        height: 300px;
+        width: auto;
+        background-position: center;
+        display: flex;
+        flex-direction: column;
+        background-repeat: no-repeat;
+        background-size: cover;
+        justify-content: center;
+        align-items: center;
+        margin-left: 20px;
+        margin-right: 20px;
+
+    }
+    .Catalogo{
+        background-image: url(../assets/img/GAMING.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+    .titulocolum{
+        color: white;
+        font-size: 20px;
+        padding: 0, 10;
+    }
+    .textocolum{
+        color: white;
+        font-size: 20px;
+        padding: 0, 10;
+    }
+
+    .titulocolum2{
+        color: black;
+        font-size: 20px;
+        padding: 0, 10;
+    }
+        .textocolum2{
+        color: black;
+        font-size: 20px;
+        padding: 0, 10;
+    }
+    .boton{
+    font-size: 25px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: 1px solid black;
+    color: black;
+    background-color: white;
+    box-shadow: -2px 2px 40px white;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+    &:hover {
+        background-color: #2980b9;
+        color: #fff;
+    }
+    }
+    
+   
+    
+    .botoncontacto{
+        font-size: 25px;
+        margin-top: 10px;
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        border-radius: 10px;
+        padding-left: 10px;
+        padding-right: 10px;
+        border: 1px solid black;
+        color: black;
+        background-color: white;
+        box-shadow: -2px 2px 40px white;
+        cursor: pointer;
+        transition: background-color 0.3s, color 0.3s;
+        &:hover{
+            background-color: #2980b9;
+            color: #fff;
+        }
+    
+    }
+    
+
+
+
+
+    .Logofooter{
+        width: 260px;
+        height: auto;
+        padding-left: 30px;
+        position: absolute;
+        padding-top: 15px;
+    
+    }
+    
+    .piedepagina1{
+        background-color: rgb(0, 0, 0);
+        width: 100%;
+        height: 250px;
+    nav{
+        
+        .navbarfooter{
+            display: flex;
+            justify-content: flex-end;
+            gap: 3rem;
+            padding-right: 60px;
+            padding-top: 110px;
+            li{
+                list-style: none;
+                a{
+                    text-decoration: none;
+                    font-size: larger;
+                    color: map-get($color, color2);
+                    text-transform: uppercase;
+                    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                }
+            }
+        }
+    }
+    }
+    
+   
+    
+    .desarrolladopor{
+    height: 80px;
+    background-color: black;
+    
+    }
+    
+    .desarrolladopor p{
+        font-size: 30px;
+        padding-top: 15px;
+        color: white;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+}
+

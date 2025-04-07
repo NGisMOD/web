@@ -1,0 +1,630 @@
+@media (max-width: 525px){
+    header{
+        background-color:map-get($color, color1);
+        width: 100%;
+        height: 300px;
+    nav{
+        
+        .enlinea{
+            display: flex;
+            justify-content: flex-end;
+            gap: 1rem;
+            padding-right: 35px;
+            padding-top: 250px;
+            li{
+                list-style: none;
+                a{
+                    text-decoration: none;
+                    font-size: 17px;
+                    color: map-get($color, color2);
+                    text-transform: uppercase;
+                    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                }
+            }
+        }
+    }
+    }
+    
+    .Logoheader{
+        width: 320px;
+        height: auto;
+        padding-left: 100px;
+        left: 50px;
+        position: absolute;
+        padding-top: 10px;
+    
+    }
+    .seccion-con-imagen{
+        background-image: url(../assets/img/fondoprincipal.png);/* Cambia 'ruta/de/tu/imagen.jpg' por la ruta real de tu imagen */
+        width: 100%; 
+        height: 350px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        flex-direction: column;
+        .titulo{
+            color: rgb(255, 255, 255);
+        text-shadow: 5px 5px 4px black;
+        font-size: 50px;
+        font-family: jomhuria;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-top: 150px;
+        }
+    }
+   
+    
+    .supermario{
+        width: 400px; /* Ajusta el ancho de tu logo según tus necesidades */
+        height: auto; /* Permite que la altura se ajuste proporcionalmente al ancho */
+        position: relative;
+        z-index: 2; /* Asegura que el logo esté superpuesto sobre el fondo */
+        left: 65px;
+        top: 20px;
+        
+    }
+    .seccion-con-imagen1{
+        height: 600px; /* Establece la altura de la sección al 100% del viewport height */
+       background-image: url(../assets/img/fondo1.png);/* Cambia 'ruta/de/tu/imagen.jpg' por la ruta real de tu imagen */
+        background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+    .titulo1{
+        color: map-get($color, color2);
+        font-size: 32px;
+        padding-left: 60px;
+        padding-right: 60px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        
+    }
+    
+    }
+    
+    .texto1{
+        color: white;
+        text-align: center;
+        font-size: 18px;
+        padding-top: 15px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    .jefemaestro{
+        width: 130px; 
+        height: auto; 
+        position: absolute;
+        left: 35%;
+        top: 115%;
+        z-index: 2; 
+    }
+    .seccion-con-imagen2{
+        height: 350px; /* Establece la altura de la sección al 100% del viewport height */
+       background-color: black;
+       display: flex;
+       flex-direction: column;
+       background-position: center;
+       justify-content: flex-start;
+       align-items: center;
+        font-size: 25px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+          padding-left: 0px; 
+          padding-top: 20px;
+          z-index: 2;
+          .texto2{
+            color: white;
+            text-align: center;
+            font-size: 20px;
+            padding-top: 10px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+              padding-left: 20px;
+              padding-right: 20px; 
+              margin-right: 0px;
+              z-index: 2;
+        }
+         
+    }
+    
+    .nintendo{
+        width: 490px; /* Ajusta el ancho de tu logo según tus necesidades */
+        height: auto; /* Permite que la altura se ajuste proporcionalmente al ancho */
+        position: absolute;
+        left: 15px;
+       top: 175%;
+        z-index: 0; /* Asegura que el logo esté superpuesto sobre el fondo */
+    }
+   
+    
+    .titulodeentrada{
+        color: white;
+        padding-top: 40px;
+        padding-bottom: 60px ;
+     background-color: black;
+     position: relative;
+     font-family: Sansation;
+     font-weight: bold;
+     font-size: 25px;
+     opacity: 1;
+     text-align: center;
+     display: flex;
+     flex-direction: row;
+     background-position: center;
+     justify-content: center;
+     align-items: center;
+      
+    }
+    
+    .Blogs{
+        background-color: black;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-direction: row;
+        .card{
+            width: 300px;
+            height: 500px;
+            background-color: white;
+            text-align: center;
+            border: 1px solid rgba(0, 0, 0, 0.278);
+            border-radius: 1.25rem; 
+            overflow: hidden; 
+            
+        }
+    
+    }
+    
+    .entrada1{
+        box-shadow: -2px 2px 40px rgb(200, 255, 37);
+        order: 1;
+        align-self: flex-start;
+        h3{
+            text-align: center;
+            font-size: 20px;
+            color: black;
+            padding-left: 50px;
+            padding-right: 50px;
+            padding-top: 20px;
+            text-transform: uppercase;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        
+        }
+        
+    }
+    p{
+        font-size: large;
+        color: black;
+        padding-left: 50px;
+        padding-right: 50px;
+        padding-top: 20px;
+    }
+    
+    div img{
+        border-radius: 50%;
+        width: 200px;
+        height: 200px;
+        overflow: hidden;
+        margin-top: 30px;
+    }
+    
+    .entrada2{
+        display: none;
+        box-shadow: -2px 2px 40px rgb(255, 37, 37);
+        order: 2;
+        align-self: flex-start;
+        h3{
+            text-align: center;
+            font-size: 40px;
+            color: black;
+            padding-left: 50px;
+            padding-right: 50px;
+            padding-top: 20px;
+            text-transform: uppercase;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        
+        }
+    }
+    
+    .entrada3{
+        display: none;
+        box-shadow: -2px 2px 40
+        px rgb(208, 37, 255);
+        order: 3;
+        align-self: flex-end;
+        position: relative;
+        h3{
+            text-align: center;
+            font-size: 40px;
+            color: black;
+            padding-left: 50px;
+            padding-right: 50px;
+            padding-top: 20px;
+            text-transform: uppercase;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        
+        }
+    }
+    
+    .espacio{
+        background-color: black;
+        height: 20px;
+    
+    }
+
+    .novedades2{
+        height: 150px;
+        background-image: url(../assets/img/fondo1.png);/* Cambia 'ruta/de/tu/imagen.jpg' por la ruta real de tu imagen */
+        background-size: cover;
+        background-repeat: no-repeat;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .novedades2 div{
+        font-size: 20px;
+        color: white;
+        text-align: center;
+        display: flex;
+        padding-left: 50px;
+        padding-right: 50px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+    }
+    
+    .nosotros2 {
+        height: 780px;
+        background-image: url(../assets/img/fondo1.png);/* Cambia 'ruta/de/tu/imagen.jpg' por la ruta real de tu imagen */
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .nosotros2 p{
+        font-size: 20px;
+        color: white;
+        text-align: center;
+    padding-right: 60px;
+    padding-left: 60px;
+    padding-top: 30px;
+        
+    }
+    .nomovil{
+        display: none;
+        
+    }
+    .nomovil2{
+        display: none;
+    }
+    
+    section .uss{
+        width: 150px; 
+        height: auto; 
+        position: absolute;
+        left: 10%;
+        right: 0%;
+        z-index: 2; 
+        margin-top: 475px;
+    }
+    section .ezioo{
+        width: 180px; 
+        height: auto; 
+        position: absolute;
+        left: 53%;
+        right: 0%;
+        z-index: 2; 
+        margin-top: 470px;
+    }
+    section .codd{
+        display: none;
+    }
+
+    .store{
+        height: 500px;
+        background-image: url(../assets/img/fondo-store.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        display: flex;
+        flex-direction: column;
+      
+    }
+    .store p{
+        color: white;
+        text-shadow: 5px 5px 4px black;
+        font-size: 25px;
+        font-family: jomhuria;
+          padding-left: 20px;
+          padding-right: 20px;
+          padding-top: 30px;
+          padding-bottom: 0px;
+          text-align: center;
+          display: flex;
+          justify-content: flex-end;
+          align-items: center;
+        flex-direction: column;  
+    }
+    
+    .store3{
+        height: 600px;
+        background-image: url(../assets/img/storefondo.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        padding-top: 20px;
+    
+    }
+    
+    
+
+    .bayo{
+        width: 155px; 
+        height: auto; 
+        position: absolute;
+        left: 5%;
+        padding-top: 250px;
+        z-index: 1;
+    
+    }
+    
+    .Dmc{
+        width: 155px; 
+        height: auto; 
+        position: absolute;
+        right: 5%;
+        padding-top: 220px;
+        z-index: 2;
+    }
+    
+    .vercatalogo{
+        color: black;
+        text-transform: uppercase;
+        text-align: center;
+        font-size: 30px;
+          margin-top: 15px;
+          display: flex;
+        flex-direction: column;
+        padding-left: 15%;
+        padding-right: 15%;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    
+    .clickaqui{
+        color: red;
+        text-transform: uppercase;
+        text-align: center;
+        font-size: 40px;
+        margin-top: 15px;
+        display: flex;
+        flex-direction: column;
+        padding-left: 10%;
+        padding-right: 10%;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+
+
+    .mapa{
+        background-color: white;
+        height: 500px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        .titulomapa{
+            text-align: center;
+            color: black;
+            text-transform: uppercase;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-size: 25px;
+        }
+    }
+    
+    
+    .datosmios p{
+        font-size: 20px;
+        text-align: center;
+        padding-top: 20px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    
+    .micasaa{
+        width: 320px; 
+        height: auto; 
+        position: absolute;
+        right: 19%;
+        top: 163%;
+        padding-top: 140px;
+        z-index: 2;
+    }
+
+    .callus{
+        height: 550px;
+        background-image: url(../assets/img/RE4.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        display: flex;
+        flex-direction: column;
+    }
+
+
+    .Productos{
+        width: 65%; 
+        position: relative;
+        margin-left:80px;
+        padding-top: 40px;
+        
+    } 
+    .introproduct{
+        background-image: url(../assets/img/INTROPRODUCTS.jpg);
+        width: auto;
+        height: 250px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: 50%;
+        h1{
+            font-size: 20px;
+            color: black;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: flex-start;
+            padding-top: 20px;
+        }
+    }
+    
+    .introproduct p{
+        font-size: 15px;
+        color: black;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        text-align: center;
+        padding-top: 30px;
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+    section .container{
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    
+    .col{
+        text-align: center;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        text-decoration: none;
+        color: #000000;
+        background-color: rgb(179, 179, 179);
+        height: 300px;
+        width: auto;
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding-bottom: 10px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        padding-top: 10px;
+    
+        }
+    .Catalogo{
+        background-image: url(../assets/img/GAMING.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+    .titulocolum{
+        color: white;
+        font-size: 20px;
+        padding: 0px;
+    }
+    .textocolum{
+        color: white;
+        font-size: 15px;
+        padding: 0px;
+    }
+
+    .titulocolum2{
+        color: black;
+        font-size: 20px;
+        padding: 0px;
+    }
+        .textocolum2{
+        color: black;
+        font-size: 15px;
+        padding: 0px;
+    }
+    .boton{
+        font-size: 23px;
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        border-radius: 10px;
+        padding-left: 5px;
+        padding-right: 5px;
+        border: 2px solid rgb(0, 0, 0);
+        color: black;
+        background-color: white;
+        box-shadow: -2px 2px 40px white;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+    &:hover {
+        background-color: #2980b9;
+        color: #fff;
+    }
+    }
+    
+   
+    
+    .botoncontacto{
+        font-size: 23px;
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        border-radius: 10px;
+        padding-left: 8px;
+        padding-right: 8px;
+        border: 2px solid rgb(0, 0, 0);
+        color: black;
+        background-color: white;
+        box-shadow: -2px 2px 40px white;
+        cursor: pointer;
+        transition: background-color 0.3s, color 0.3s;
+        &:hover{
+            background-color: #2980b9;
+            color: #fff;
+        }
+    
+    }
+    
+    
+
+
+
+
+    .Logofooter{
+        width: 320px;
+        height: auto;
+        left: 60px;
+        position: absolute;
+        padding-top: 10px;
+    
+    }
+    
+    .piedepagina1{
+        background-color: rgb(0, 0, 0);
+        width: 100%;
+        height: 300px;
+    nav{
+        
+        .navbarfooter{
+            display: flex;
+            justify-content: flex-end;
+            gap: 1rem;
+            padding-right: 30px;
+            padding-top:250px;
+            li{
+                list-style: none;
+                a{
+                    text-decoration: none;
+                    font-size: 17px;
+                    color: map-get($color, color2);
+                    text-transform: uppercase;
+                    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                }
+            }
+        }
+    }
+    }
+    
+   
+    
+    .desarrolladopor{
+    height: 50px;
+    background-color: black;
+    
+    }
+    
+    .desarrolladopor p{
+        font-size: 15px;
+        padding-top: 10px;
+        color: white;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+}
+
